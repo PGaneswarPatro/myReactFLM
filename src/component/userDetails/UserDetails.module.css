@@ -1,0 +1,50 @@
+.userDetailsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width:fit-content;
+    gap: 50px;
+
+}
+.mainContainer{
+    display: flex;
+     justify-content: center;
+    align-items: center;
+}
+
+.imgContainer{
+    padding: 0;
+
+}
+
+.profileImage{
+width: 80px;
+height: 80px;
+border-radius: 100px;
+
+}
+
+.followBtn button{
+    padding: 20px;
+    width: 150px;
+    background:none;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.followBtn button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(67, 142, 255);
+}
+
+.blocks{
+    display: inline-block;
+  
+}
