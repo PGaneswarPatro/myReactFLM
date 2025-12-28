@@ -5,6 +5,7 @@ import "./App.css";
 import Greeting from "./component/gretting/Greeting";
 import MyButton from "./component/stateChange/MyButton";
 import UserDetails from "./component/userDetails/UserDetails";
+import Map from "./component/map/Map";
 // import MyButton from "./MyButton";
 // import Greeting from "./Greeting";
 
@@ -154,7 +155,7 @@ function App() {
         following={data[3].following}
       /> */}
 
-      {data.map((user, index) => (
+      {/* {data.map((user, index) => (
         <UserDetails
           key={index}
           first_name={user.first_name}
@@ -164,8 +165,10 @@ function App() {
           post={user.post}
           followers={user.followers}
           following={user.following}
-        />
-      ))}
+        /> 
+     ))} */}
+
+<Map/>
     </>
   );
 }
