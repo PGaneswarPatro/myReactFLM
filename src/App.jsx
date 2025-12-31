@@ -6,7 +6,10 @@ import Greeting from "./component/gretting/Greeting";
 import MyButton from "./component/stateChange/MyButton";
 import UserDetails from "./component/userDetails/UserDetails";
 import Map from "./component/map/Map";
-import Deposit from "./deposit/Deposit";
+import Deposit from "./component/deposit/Deposit";
+import Counter from "./component/deposit/Counter";
+import ApiReq from "./component/deposit/ApiReq";
+import Home from "./component/SearchEngineApp/SearchEngineHome/Home";
 // import MyButton from "./MyButton";
 // import Greeting from "./Greeting";
 
@@ -169,9 +172,14 @@ function App() {
         /> 
      ))} */}
 
-{/* <Map/> */}
+      {/* <Map/> */}
 
-<Deposit/>
+      {/* <Deposit /> */}
+      {/* <Counter /> */}
+
+      {/* <ApiReq/> */}
+
+      <Home/>
     </>
   );
 }
