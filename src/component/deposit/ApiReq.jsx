@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import PostItem from "./PostItem";
+import CircularProgress from '@mui/material/CircularProgress';
 
 const ApiReq = () => {
   const [post, setPost] = useState([]);
@@ -30,7 +31,7 @@ const ApiReq = () => {
     return <h2>{error}</h2> 
   }
   if (loading) {
-    return <h1>Loading...</h1>;
+    return <><CircularProgress /></>;
   }
   return (
     <>

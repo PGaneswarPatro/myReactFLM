@@ -177,9 +177,9 @@ function App() {
       {/* <Deposit /> */}
       {/* <Counter /> */}
 
-      {/* <ApiReq/> */}
+      <ApiReq/>
 
-      <Home/>
+      {/* <Home/> */}
     </>
   );
 }
