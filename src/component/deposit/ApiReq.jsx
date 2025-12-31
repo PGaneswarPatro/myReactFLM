@@ -32,6 +32,8 @@ const ApiReq = () => {
   }
   if (loading) {
     return <><CircularProgress /></>;
+
+       
   }
   return (
     <>
